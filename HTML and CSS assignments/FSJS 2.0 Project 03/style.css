@@ -1,0 +1,215 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200&family=Montserrat:wght@300;400;500&family=Orbitron:wght@400;200;500;600&family=Oswald:wght@200;700&family=Poppins:wght@100;200;300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    outline: 0;
+}
+
+body{
+    height: 100%;
+}
+
+
+.navbar-container img{
+    width: 70% ;
+}
+
+.navbar-container{
+    display: flex;
+    margin: 3rem;
+    margin-left: 6rem;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    margin: 12px ;
+    padding: 0 10rem;
+    
+
+}
+
+.list-item{
+    padding-right: 3rem;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.list-item:first-child{
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: 800;
+    
+}
+
+.list-item:nth-child(2) {
+    order:3;
+}
+
+.list-item:nth-child(3) {
+    order: 2;
+}
+
+.list-item:nth-child(4) {
+    order: 3;
+}
+
+.list-item:nth-child(5) {
+    order: 3;
+}
+
+.button-group{
+    display: flex;
+    margin-left: 25px;
+   
+}
+
+.nav-button{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 1px 35px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #515151;
+    background-color: #fff;
+    border: 3px solid black;
+}
+
+svg{
+    width: 24px;
+}
+
+.globe img{
+    position: absolute;
+    left: 47rem;
+    width: 56px;
+    
+}
+
+.hero-container .star:nth-of-type(3) img{
+   position:absolute;
+   top:12rem;
+   right: 11rem;
+   width: 50px;
+
+}
+
+.hero-container .star:nth-of-type(2) img{
+    position: relative;
+    left: 20rem;
+    top: 15rem;
+    width: 40px;
+}
+
+
+.globe + div  img{
+
+    position: absolute;
+    bottom: 4rem;
+    left: 6rem;
+    width: 24rem;
+    
+   
+ 
+}
+
+.square img{
+    position: relative;
+    left: 16rem;
+    top: 17rem;
+    width: 18rem;
+}
+
+.hero-container-right{
+
+display: flex;
+flex-direction: column;
+width: 60rem;
+position: relative;
+left: 35rem;
+bottom: 11rem; 
+} 
+
+.hero-heading{
+    
+    margin-left: 2rem;
+    font-size: 58px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.hero-description{
+    text-align: center;
+    margin: 3rem 5rem;
+    margin-left: 8rem;
+    padding-right: 13rem;
+    font-family: 'Poppins', sans-serif;
+    color: #515151;
+    font-size: 13px;
+    /* width: 15rem; */
+    
+}
+
+p + div{
+    margin: 2rem 0 ;
+    margin-left: 15rem;
+}
+
+.button-email{
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    color: #515151;
+    padding: 2px 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    
+}
+
+.button-join{
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-right: 7rem ;
+    margin-top: 40px;
+    color: #515151;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.icons{
+    display: flex;
+    
+}
+
+.icons span img{
+   
+    flex-direction: row;
+    position: relative;
+    left: 22rem;
+    margin-top: 1rem;
+    width: 2rem;
+    margin-right: 14px;
+    
+
+}
+
