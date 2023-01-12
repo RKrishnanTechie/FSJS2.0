@@ -4,4 +4,4 @@
 
 **Project 1**  [click to view](https://mywebbie.netlify.app)
 
-**Project 1**  [click to view](https://mywebbie2.netlify.app)
+**Project 2**  [click to view](https://mywebbie2.netlify.app)
