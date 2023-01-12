@@ -3,3 +3,5 @@
 ## HTML and CSS Projects
 
 **Project 1**  [click to view](https://mywebbie.netlify.app)
+
+**Project 1**  [click to view](https://mywebbie2.netlify.app)
